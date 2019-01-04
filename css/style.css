@@ -2,10 +2,16 @@
     margin-top: 10px;
 }
 
+.card{
+    padding: 20px;
+    margin-top: 40px;
+}
+
 #movies img, #movie img{
     width: 100%;
 }
 
+@media(min-width:960px){
 #movies .col-md-3 .card{
     height: 390px;
 }
@@ -13,8 +19,8 @@
 #movies .col-md-3 img{
     height: 240px;
 }
+}
 
-.card{
-    padding: 20px;
-    margin-top: 40px;
+.plot{
+    background-color:white;
 }
